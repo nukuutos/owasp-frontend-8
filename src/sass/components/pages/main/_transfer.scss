@@ -1,0 +1,16 @@
+.transfer {
+  width: 34.8rem;
+  border-radius: 0.5rem;
+  background: $color-white;
+  padding: 2.4rem;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    align-self: flex-end;
+    font-weight: 700;
+  }
+}

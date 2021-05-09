@@ -1,0 +1,33 @@
+.heading {
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-align: center;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 12rem;
+    height: 2px;
+    background: $color-secondary;
+    margin: 0.8rem auto 0;
+  }
+}
+
+.logo {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: $color-gray;
+  position: absolute;
+  top: 3.2rem;
+  left: 2.4rem;
+
+  &--main {
+    position: relative;
+    top: unset;
+    left: unset;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
+}

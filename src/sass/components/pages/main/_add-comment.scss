@@ -1,0 +1,21 @@
+.add-comment {
+  padding: 2.4rem 2.8rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba($color-black, 0.25);
+
+  &__textarea {
+    $width: 100%;
+    min-width: $width;
+    max-width: $width;
+
+    $height: 13.2rem;
+    min-height: $height;
+    max-height: $height;
+  }
+
+  &__btn {
+    align-self: flex-end;
+  }
+}

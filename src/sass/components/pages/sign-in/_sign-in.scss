@@ -1,0 +1,34 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__wrapper {
+    transform: translateY(-25%);
+  }
+
+  &__form {
+    width: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    text-align: center;
+  }
+
+  &__heading {
+    margin: 0 auto 2rem;
+  }
+
+  &__btn {
+    align-self: flex-end;
+  }
+
+  &__input {
+    width: 100%;
+  }
+}
